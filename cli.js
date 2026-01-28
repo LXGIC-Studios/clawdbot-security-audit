@@ -175,11 +175,11 @@ function checkNodeVersion() {
   const version = process.version;
   const [major, minor] = version.slice(1).split('.').map(Number);
   
-  if (major >= 22 && minor >= 12) {
+  if (major >= 22) {
     pass(`Node.js ${version} (secure)`);
     return true;
   } else if (major >= 20) {
-    warn(`Node.js ${version} - consider upgrading to 22.12.0+`);
+    warn(`Node.js ${version} - consider upgrading to 22.x+`);
     return true;
   } else {
     fail(`Node.js ${version} - OUTDATED, has known vulnerabilities`);

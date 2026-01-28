@@ -183,8 +183,4 @@ clawdhub install lxgicstudios/clawdbot-security
 
 ---
 
-## Credits
-
-Based on security research by [@NickSpisak_](https://x.com/NickSpisak_/status/2016195582180700592)
-
 Built by **LXGIC Studios** - [@lxgicstudios](https://x.com/lxgicstudios)
