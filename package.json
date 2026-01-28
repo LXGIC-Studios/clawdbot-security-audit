@@ -1,25 +1,45 @@
 {
-  "name": "clawdbot-security-audit",
+  "name": "ai-security-audit",
   "version": "1.0.0",
-  "description": "Security audit and hardening tools for Clawdbot/Moltbot installations",
-  "type": "module",
+  "description": "Audit your dev environment for security vulnerabilities - exposed credentials, SSH misconfigs, dangerous permissions, and prompt injection risks",
   "main": "index.js",
   "bin": {
-    "clawdbot-security": "./cli.js"
+    "ai-security-audit": "./cli.js",
+    "security-audit": "./cli.js"
   },
-  "author": "lxgicstudios",
-  "license": "MIT",
+  "scripts": {
+    "test": "node cli.js --help"
+  },
   "keywords": [
-    "clawdbot",
-    "moltbot",
     "security",
     "audit",
-    "hardening",
-    "firewall",
-    "tailscale"
+    "credentials",
+    "ssh",
+    "vulnerability",
+    "env",
+    "secrets",
+    "devops",
+    "ai-agent",
+    "clawdbot",
+    "moltbot"
   ],
+  "author": "LXGIC Studios <lxgicstudios@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/clawdbot-security-audit"
-  }
+    "url": "git+https://github.com/lxgic-studios/ai-security-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lxgic-studios/ai-security-audit/issues"
+  },
+  "homepage": "https://github.com/lxgic-studios/ai-security-audit#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md",
+    "SKILL.md"
+  ]
 }
