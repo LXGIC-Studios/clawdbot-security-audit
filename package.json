@@ -11,17 +11,7 @@
     "test": "node cli.js --help"
   },
   "keywords": [
-    "security",
-    "audit",
-    "credentials",
-    "ssh",
-    "vulnerability",
-    "env",
-    "secrets",
-    "devops",
-    "ai-agent",
-    "clawdbot",
-    "moltbot"
+    "ai", "security", "audit", "credentials", "ssh", "vulnerability", "env", "secrets", "devops", "ai-agent", "clawdbot", "moltbot", "devsecops", "developer-tools", "cli", "nodejs"
   ],
   "author": "LXGIC Studios <lxgicstudios@gmail.com>",
   "license": "MIT",

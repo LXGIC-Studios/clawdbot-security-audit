@@ -1,5 +1,11 @@
 # ai-security-audit
 
+[![npm version](https://img.shields.io/npm/v/ai-security-audit.svg)](https://www.npmjs.com/package/ai-security-audit)
+[![npm downloads](https://img.shields.io/npm/dm/ai-security-audit.svg)](https://www.npmjs.com/package/ai-security-audit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Complete security audit for AI agent setups. Find SSH misconfigs, exposed credentials, Docker vulnerabilities, and prompt injection risks.
+
 Audit your dev environment for security vulnerabilities - exposed credentials, SSH misconfigs, dangerous Docker settings, and prompt injection risks.
 
 Based on [@mrnacknack's viral article](https://x.com/mrnacknack/status/2016134416897360212) "10 ways to hack into a vibecoder's clawdbot" (248K views, 2.4K likes).
