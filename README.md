@@ -3,6 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/ai-security-audit.svg)](https://www.npmjs.com/package/ai-security-audit)
 [![npm downloads](https://img.shields.io/npm/dm/ai-security-audit.svg)](https://www.npmjs.com/package/ai-security-audit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/lxgic-studios/ai-security-audit)](https://github.com/lxgic-studios/ai-security-audit/stargazers)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+
 
 Complete security audit for AI agent setups. Find SSH misconfigs, exposed credentials, Docker vulnerabilities, and prompt injection risks.
 
