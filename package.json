@@ -7,6 +7,12 @@
     "ai-security-audit": "./cli.js",
     "security-audit": "./cli.js"
   },
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md",
+    "SKILL.md"
+  ],
   "scripts": {
     "test": "node cli.js --help"
   },
@@ -33,6 +39,7 @@
   ],
   "author": "LXGIC Studios <lxgicstudios@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/lxgic-studios/ai-security-audit#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lxgic-studios/ai-security-audit.git"
@@ -40,14 +47,15 @@
   "bugs": {
     "url": "https://github.com/lxgic-studios/ai-security-audit/issues"
   },
-  "homepage": "https://github.com/lxgic-studios/ai-security-audit#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
-  "files": [
-    "cli.js",
-    "index.js",
-    "README.md",
-    "SKILL.md"
-  ]
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
