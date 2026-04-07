@@ -1,5 +1,5 @@
 {
-  "name": "ai-security-audit",
+  "name": "@lxgicstudios/ai-security-audit",
   "version": "1.0.0",
   "description": "Audit your dev environment for security vulnerabilities - exposed credentials, SSH misconfigs, dangerous permissions, and prompt injection risks",
   "main": "index.js",
