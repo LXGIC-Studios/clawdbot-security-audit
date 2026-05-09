@@ -1,7 +1,7 @@
 {
   "name": "@lxgicstudios/ai-security-audit",
   "version": "1.0.0",
-  "description": "Audit your dev environment for security vulnerabilities - exposed credentials, SSH misconfigs, dangerous permissions, and prompt injection risks",
+  "description": "AI-powered security scanner - detect vulnerabilities with GPT analysis",
   "main": "index.js",
   "bin": {
     "ai-security-audit": "./cli.js",
@@ -10,6 +10,7 @@
   "files": [
     "cli.js",
     "index.js",
+    "index.d.ts",
     "README.md",
     "SKILL.md"
   ],
@@ -17,35 +18,42 @@
     "test": "node cli.js --help"
   },
   "keywords": [
+    "2025-standards",
     "ai",
-    "anthropic",
-    "claude",
-    "llm",
-    "security",
-    "audit",
-    "credentials",
-    "ssh",
-    "vulnerability",
-    "env",
-    "secrets",
-    "devops",
+    "ai-2025",
     "ai-agent",
+    "ai-powered",
+    "anthropic",
+    "audit",
+    "automation",
+    "claude",
     "clawdbot",
-    "moltbot",
-    "devsecops",
-    "developer-tools",
     "cli",
-    "nodejs"
+    "credentials",
+    "developer-productivity",
+    "developer-tools",
+    "discoverability",
+    "generative-ai",
+    "llm-optimized",
+    "modern-seo",
+    "nodejs",
+    "optimization",
+    "performance",
+    "performance-optimization",
+    "productivity",
+    "seo",
+    "seo-2026",
+    "typescript"
   ],
   "author": "LXGIC Studios <lxgicstudios@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/lxgic-studios/ai-security-audit#readme",
+  "homepage": "https://github.com/LXGIC-Studios/ai-security-audit#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lxgic-studios/ai-security-audit.git"
+    "url": "https://github.com/LXGIC-Studios/ai-security-audit"
   },
   "bugs": {
-    "url": "https://github.com/lxgic-studios/ai-security-audit/issues"
+    "url": "https://github.com/LXGIC-Studios/ai-security-audit/issues"
   },
   "funding": {
     "type": "github",
@@ -54,6 +62,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public",
     "provenance": true
