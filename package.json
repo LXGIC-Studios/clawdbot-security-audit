@@ -1,11 +1,19 @@
 {
-  "name": "@lxgicstudios/ai-security-audit",
-  "version": "1.0.0",
-  "description": "AI-powered security scanner - detect vulnerabilities with GPT analysis",
-  "main": "index.js",
+  "author": {
+    "name": "lxgic studios",
+    "email": "contact@lxgic.com",
+    "url": "https://lxgic.com"
+  },
   "bin": {
     "ai-security-audit": "./cli.js",
     "security-audit": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lxgicstudios/ai-security-audit/issues"
+  },
+  "description": "AI-powered security scanner - detect vulnerabilities with GPT analysis",
+  "engines": {
+    "node": ">=18.0.0"
   },
   "files": [
     "cli.js",
@@ -14,57 +22,43 @@
     "README.md",
     "SKILL.md"
   ],
-  "scripts": {
-    "test": "node cli.js --help"
-  },
-  "keywords": [
-    "2025-standards",
-    "ai",
-    "ai-2025",
-    "ai-agent",
-    "ai-powered",
-    "anthropic",
-    "audit",
-    "automation",
-    "claude",
-    "clawdbot",
-    "cli",
-    "credentials",
-    "developer-productivity",
-    "developer-tools",
-    "discoverability",
-    "generative-ai",
-    "llm-optimized",
-    "modern-seo",
-    "nodejs",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "productivity",
-    "seo",
-    "seo-2026",
-    "typescript"
-  ],
-  "author": "LXGIC Studios <lxgicstudios@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-security-audit#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-security-audit"
-  },
-  "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-security-audit/issues"
-  },
   "funding": {
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "types": "index.d.ts",
+  "homepage": "https://github.com/lxgicstudios/ai-security-audit#readme",
+  "keywords": [
+    "AI-optimized",
+    "AI-powered",
+    "ai",
+    "ai-optimized",
+    "ai-powered",
+    "automation",
+    "best-practices",
+    "cli",
+    "developer-tools",
+    "performance",
+    "seo-tools",
+    "technical-seo",
+    "utility",
+    "web-optimization",
+    "2025-standards",
+    "modern-seo"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@lxgicstudios/ai-security-audit",
   "publishConfig": {
     "access": "public",
     "provenance": true
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-security-audit"
+  },
+  "scripts": {
+    "test": "node cli.js --help"
+  },
+  "types": "index.d.ts",
+  "version": "1.0.0"
 }
