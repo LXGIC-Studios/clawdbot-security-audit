@@ -16,7 +16,7 @@
 
 # AI Security Audit
 
-solve specific development challenges with AI-powered insights.
+AI-powered security scanner — vulnerability detection, dependency audit, and fix recommendations. Works with Claude, Cursor, GPT, Copilot.
 
 [![npm downloads](https://img.shields.io/npm/d/ai-security-audit.svg?style=for-the-badge&logo=npm&label=downloads)](https://npmjs.com/package/ai-security-audit)
 [![GitHub stars](https://img.shields.io/github/stars/LXGIC-Studios/ai-security-audit?style=for-the-badge&logo=github&label=stars)](https://github.com/LXGIC-Studios/ai-security-audit)
@@ -24,9 +24,17 @@ solve specific development challenges with AI-powered insights.
 
 </div>
 
-> AI-powered security scanner - detect vulnerabilities with GPT analysis.
+> AI-powered security scanner — vulnerability detection and dependency audit with GPT.
 
-## 🚀 Features
+## 🤖 Works With
+
+| AI Assistant | Support |
+|-------------|---------|
+| 🤖 **Claude / Claude Code** | ✅ Full |
+| 🔵 **Cursor** | ✅ Full |
+| 💚 **GPT / ChatGPT** | ✅ Full |
+| ⚡ **GitHub Copilot** | ✅ Full |
+| 🧩 **MCP Servers** | ✅ Compatible |## 🚀 Features
 
 - Feature 1
 - Feature 2
