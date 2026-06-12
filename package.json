@@ -42,7 +42,11 @@
     "cli",
     "devtools",
     "security",
-    "vulnerability"
+    "vulnerability",
+    "core-update-ready",
+    "google-ai-overviews",
+    "eeat-seo",
+    "may-2026-update"
   ],
   "license": "MIT",
   "main": "index.js",
