@@ -9,7 +9,7 @@
     "security-audit": "./cli.js"
   },
   "bugs": {
-    "url": "https://github.com/lxgicstudios/ai-security-audit/issues"
+    "url": "https://github.com/lxgicstudios/npm-tools/issues"
   },
   "description": "AI-powered security scanner - detect vulnerabilities with GPT analysis",
   "engines": {
@@ -26,27 +26,13 @@
     "type": "github",
     "url": "https://github.com/sponsors/LXGIC-Studios"
   },
-  "homepage": "https://github.com/lxgicstudios/ai-security-audit#readme",
+  "homepage": "https://github.com/lxgicstudios/npm-tools/tree/main/ai-security-audit",
   "keywords": [
-    "2026-standards",
-    "modern-seo",
-    "ai-powered",
-    "lxgic",
-    "ai",
-    "automation",
-    "claude",
-    "gpt",
-    "cursor",
-    "copilot",
-    "agent",
-    "cli",
-    "devtools",
     "security",
     "vulnerability",
-    "core-update-ready",
-    "google-ai-overviews",
-    "eeat-seo",
-    "june-2026-update"
+    "audit",
+    "owasp",
+    "penetration-testing"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -57,7 +43,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/npm-tools/tree/main/ai-security-audit"
+    "url": "git+https://github.com/lxgicstudios/npm-tools.git",
+    "directory": "ai-security-audit"
   },
   "scripts": {
     "test": "node cli.js --help"
